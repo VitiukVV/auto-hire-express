@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/auto-hire-express/static/css/main.3e4d5a7d.css",
+    "main.js": "/auto-hire-express/static/js/main.ea97b7ca.js",
+    "index.html": "/auto-hire-express/index.html",
+    "main.3e4d5a7d.css.map": "/auto-hire-express/static/css/main.3e4d5a7d.css.map",
+    "main.ea97b7ca.js.map": "/auto-hire-express/static/js/main.ea97b7ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e4d5a7d.css",
+    "static/js/main.ea97b7ca.js"
+  ]
+}
