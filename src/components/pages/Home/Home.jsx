@@ -8,7 +8,7 @@ import {
   Title,
 } from './HomeStyled';
 import { useNavigate } from 'react-router-dom';
-// домашня сторінка з загальним описом послуг, що надає компанія. Стилізація та оформлення на ваш розсуд
+
 const Home = () => {
   const navigate = useNavigate();
   const handleCatalogButtonClick = () => {
