@@ -1,11 +1,20 @@
 import styled from 'styled-components';
 
-export const HomePageContainer = styled.div`
-  /* background-color: #3470ff; */
-  /* color: white; */
+export const HomePageSection = styled.section`
   padding: 40px;
   box-shadow: 0 0 13px 3px grey;
   text-align: center;
+  background-image: url(https://rentme.com.ua/wp-content/uploads/2017/02/arenda-avto-kharkov-min.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  /* background-color: var(--primary-color); */
+  text-align: center;
+`;
+export const Container = styled.div`
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.5);
 `;
 
 export const Title = styled.h1`
@@ -16,6 +25,7 @@ export const Title = styled.h1`
 export const Description = styled.p`
   font-size: 1.2em;
   line-height: 1.6;
+  margin-bottom: 20px;
 `;
 
 export const ServicesList = styled.ul`
@@ -27,20 +37,4 @@ export const ServicesList = styled.ul`
 export const ServiceItem = styled.li`
   font-size: 1.1em;
   margin-bottom: 10px;
-`;
-
-export const Button = styled.button`
-  width: 274px;
-  height: 44px;
-  background-color: #3470ff;
-  border-radius: 12px;
-  color: white;
-  font-size: 14px;
-  padding: 12px 50px;
-  border: none;
-  margin-top: 20px;
-
-  &:hover {
-    background-color: #0b44cd;
-  }
 `;
