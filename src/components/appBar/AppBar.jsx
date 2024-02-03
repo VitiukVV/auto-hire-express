@@ -1,10 +1,10 @@
 import React, { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
-import { Container, Header, Main, MainLinks, StyledLink } from './AppBarStyled';
+import { Header, MainLinks, StyledLink } from './AppBarStyled';
 
 const AppBar = () => {
   return (
-    <Container>
+    <>
       <Header>
         <nav>
           <div>
@@ -16,12 +16,12 @@ const AppBar = () => {
           </MainLinks>
         </nav>
       </Header>
-      <Main>
+      <main>
         <Suspense fallback={<div>Loading...</div>}>
           <Outlet />
         </Suspense>
-      </Main>
-    </Container>
+      </main>
+    </>
   );
 };
 
