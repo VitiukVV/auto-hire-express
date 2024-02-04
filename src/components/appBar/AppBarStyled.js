@@ -33,8 +33,3 @@ export const StyledLink = styled(NavLink)`
     color: var(--color-hover);
   }
 `;
-
-// export const Main = styled.main`
-//   padding: 28px 24px;
-//   margin: 0 auto;
-// `;

@@ -7,7 +7,6 @@ export const HomePageSection = styled.section`
   background-image: url(https://rentme.com.ua/wp-content/uploads/2017/02/arenda-avto-kharkov-min.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  /* background-color: var(--primary-color); */
   text-align: center;
 `;
 export const Container = styled.div`

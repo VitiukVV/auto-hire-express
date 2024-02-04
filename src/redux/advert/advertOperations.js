@@ -52,20 +52,3 @@ export const filterAdvertsByBrand = createAsyncThunk(
     }
   }
 );
-
-export const filterAdvertsByPrice = createAsyncThunk(
-  'filterAdvertsByPrice/fetch',
-  async (rentalPrice, thunkAPI) => {
-    try {
-      const response = await axios.get('/advert/', {
-        params: {
-          sortby: 'rentalPrice',
-          order: rentalPrice,
-        },
-      });
-      return response.data;
-    } catch (e) {
-      return thunkAPI.rejectWithValue(e.message);
-    }
-  }
-);

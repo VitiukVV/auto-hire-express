@@ -2,12 +2,6 @@ export const pending = state => {
   state.isLoading = true;
 };
 
-// export const fetchFavoriteHandleFulfilled = (state, action) => {
-//   state.isLoading = false;
-//   state.error = null;
-//   state.items = action.payload;
-// };
-
 export const addHandleFulfilled = (state, action) => {
   state.isLoading = false;
   state.error = null;

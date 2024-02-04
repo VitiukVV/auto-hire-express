@@ -16,7 +16,7 @@ import { advertReducer } from './advert/advertSlice';
 const favoritePersistConfig = {
   key: 'favorite',
   storage,
-  //   whitelist: ['token'],
+  whitelist: ['favorite'],
 };
 
 export const store = configureStore({

@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { getSplitArr } from '../../helpers/getSplitArr';
 import { truncateString } from '../../helpers/truncateString';
 import sprite from '../../icons/symbol-defs.svg';
+import { selectAdverts } from '../../redux/advert/advertSelectors';
+import {
+  addToFavorite,
+  deleteFromFavorite,
+} from '../../redux/favorite/favorite-operations';
+import { selectFavoriteAdverts } from '../../redux/favorite/favorite-selectors';
 import Button from '../button/Button';
 import FullCard from '../fullCard/FullCard';
 import Modal from '../modal/Modal';
@@ -15,13 +22,6 @@ import {
   MainTextWrapper,
   TextWrapper,
 } from './CatalogCard.styled';
-import { useDispatch, useSelector } from 'react-redux';
-import {
-  addToFavorite,
-  deleteFromFavorite,
-} from '../../redux/favorite/favorite-operations';
-import { selectAdverts } from '../../redux/advert/advertSelectors';
-import { selectFavoriteAdverts } from '../../redux/favorite/favorite-selectors';
 
 export const CatalogCard = ({ carDetails }) => {
   const dispatch = useDispatch();

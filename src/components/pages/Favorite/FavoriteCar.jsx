@@ -1,9 +1,9 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import { selectFavoriteAdverts } from '../../../redux/favorite/favorite-selectors';
-import CatalogList from '../../catalogList/CatalogList';
-import Button from '../../button/Button';
 import { useNavigate } from 'react-router-dom';
+import { selectFavoriteAdverts } from '../../../redux/favorite/favorite-selectors';
+import Button from '../../button/Button';
+import CatalogList from '../../catalogList/CatalogList';
 import {
   Description,
   FavoritePageContainer,
