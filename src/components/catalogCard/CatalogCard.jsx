@@ -98,6 +98,8 @@ export const CatalogCard = ({ carDetails }) => {
           <p>{adressArr[1]}</p>
           <p>{adressArr[2]}</p>
           <p>{rentalCompany}</p>
+          {(rentalCompany === 'Luxury Car Rentals' ||
+            rentalCompany === 'Auto Rentals') && <p>Premium</p>}
         </InfoTextWrapper>
         <InfoTextWrapper>
           <p>{type}</p>

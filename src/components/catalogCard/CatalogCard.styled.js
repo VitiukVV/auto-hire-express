@@ -84,10 +84,12 @@ export const InfoTextWrapper = styled.div`
   }
 
   > p {
+    padding: 0 5px;
+    &:first-child {
+      padding-left: 0;
+    }
     &:not(:last-child) {
-      padding-right: 6px;
       border-right: 1px solid var(--color-text-prescription);
-      margin-right: 6px;
     }
   }
 `;
