@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/auto-hire-express/static/css/main.3237e0de.css",
-    "main.js": "/auto-hire-express/static/js/main.fdd3717d.js",
+    "main.js": "/auto-hire-express/static/js/main.47ce89af.js",
     "static/media/Manrope-SemiBold.ttf": "/auto-hire-express/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
     "static/media/Manrope-Medium.ttf": "/auto-hire-express/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
     "static/media/Manrope-Regular.ttf": "/auto-hire-express/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
@@ -14,10 +14,10 @@
     "static/media/symbol-defs.svg": "/auto-hire-express/static/media/symbol-defs.ab0cb4666a371440d47abc26ed089233.svg",
     "index.html": "/auto-hire-express/index.html",
     "main.3237e0de.css.map": "/auto-hire-express/static/css/main.3237e0de.css.map",
-    "main.fdd3717d.js.map": "/auto-hire-express/static/js/main.fdd3717d.js.map"
+    "main.47ce89af.js.map": "/auto-hire-express/static/js/main.47ce89af.js.map"
   },
   "entrypoints": [
     "static/css/main.3237e0de.css",
-    "static/js/main.fdd3717d.js"
+    "static/js/main.47ce89af.js"
   ]
 }
